@@ -1,0 +1,22 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.accordion {
+  .acc-block {
+    background-color: aqua;
+    padding: 20px;
+    border: 1px solid tomato;
+    margin-bottom: 12px;
+    .header {
+      h1 {
+        margin-bottom: 0px;
+      }
+      span {
+        font-size: 2.5rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
